@@ -1,0 +1,13 @@
+// Login Page
+body {
+    background-color: lighten(#000, 97.25%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 .05rem .1rem #000000;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+.login-panel {
+    margin-top: 25%;
+}
+.field-validation-error{
+    padding-left: 10px;
+}

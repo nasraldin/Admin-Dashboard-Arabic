@@ -1,0 +1,32 @@
+// Mixins are functions that we can pass values into
+@mixin margin-size($size: 0 0 0 0){
+    margin: $size;
+}
+@mixin padding-size($size: 0 0 0 0){
+    padding: $size;
+}
+@mixin transition($size: 0 0 0 0){
+    -moz-transition: $size;
+    -o-transition: $size;
+    transition: $size;
+}
+
+@mixin transform-style($style) {
+    -webkit-transform-style: $style;
+    transform-style: $style;
+}
+
+@mixin transform($rotate: x y) {
+    -moz-transform: $rotate;
+    -ms-transform: $rotate;
+    -o-transform: $rotate;
+    -webkit-transform: $rotate;
+    transform: $rotate;
+}
+
+@mixin perspective($value: 0) {
+    -moz-perspective: $value;
+    -ms-perspective: $value;
+    -webkit-perspective: $value;
+    perspective: $value;
+}
