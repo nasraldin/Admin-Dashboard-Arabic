@@ -1,2 +1,2 @@
-# Admin-Dashboard-Arabic
+# Admin Dashboard Arabic
 Admin Dashboard RTL
